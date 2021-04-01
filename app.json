@@ -1,0 +1,58 @@
+{
+  "pages":[
+    "pages/page01/page01",
+    "pages/myorder/myorder", 
+    "pages/mine/mine",
+    "pages/page02/page02",
+    "pages/page03/page03",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "tabBar": {
+    "backgroundColor": "FF9",
+    "selectedColor": "#930",
+    "list": [
+      {
+        "pagePath": "pages/page01/page01",
+        "text": "首页",
+        "iconPath": "/icons/图片5.png",
+        "selectedIconPath": "/icons/图片6.png"
+      },
+      {
+        "pagePath": "pages/myorder/myorder",
+        "text": "点选",
+        "iconPath": "/icons/图片3.png",
+        "selectedIconPath": "/icons/图片4.png"
+      },     
+      {
+        "pagePath": "pages/page02/page02",
+        "text": "积分",
+        "iconPath": "/icons/图片9.png",
+        "selectedIconPath": "/icons/图片10.png"
+      },
+      {
+        "pagePath": "pages/page03/page03",
+        "text": "订单",
+        "iconPath": "/icons/图片11.png",
+        "selectedIconPath": "/icons/图片12.png"
+      } ,
+      {
+        "pagePath": "pages/mine/mine",
+        "text":"我的",
+        "iconPath": "/icons/图片2.png",
+        "selectedIconPath": "/icons/1.png"
+      }
+    ]
+  },
+  "entryPagePath":"pages/myorder/myorder",
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#efe",
+    "navigationBarTitleText": "欢迎光临-2001咖啡馆",
+    "navigationBarTextStyle":"black",
+    "backgroundColor": "#FFC",
+    "enablePullDownRefresh": true
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
