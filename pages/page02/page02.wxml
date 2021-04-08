@@ -1,2 +1,22 @@
-<!--pages/page02/page02.wxml-->
-<text>pages/page02/page02.wxml</text>
+<view class="day_box">
+  <view wx:for="{{7}}" class="day {{index+1<=count?'has':'nohas'}}">
+   <text wx:if="{{(index+1)!=count}}">{{index+1}}天</text>
+   <text wx:else>今天</text>
+   <image style="width: 50rpx; height: 50rpx;" src="https://z3.ax1x.com/2021/04/08/cYBwDO.png"/>
+  </view>
+</view>
+
+<view class="clock" disabled="{{clock_button_flag}}">
+  <text>我的积分：{{point}}</text>
+<button style="width:300rpx;" class="{{clock_button_flag?'clock':'unclock'}}" bindtap="onBindTap" size="mini" > 
+  签到
+</button>
+</view>
+
+<swiper autoplay interval="3000" circular >
+  <swiper-item><image mode="widthFix" src="//img.alicdn.com/imgextra/i4/2206686532409/O1CN010mWabI1TfMn6XGXhD_!!2206686532409-0-lubanimage.jpg"/></swiper-item>
+  <swiper-item><image mode="widthFix" src="//img.alicdn.com/imgextra/i3/2206686532409/O1CN01Up88Xw1TfMn9UcI5C_!!2206686532409-0-lubanimage.jpg"/></swiper-item>
+  <swiper-item><image mode="widthFix" src="//img.alicdn.com/imgextra/i2/2206686532409/O1CN01TZJqAg1TfMn7B8NK9_!!2206686532409-0-lubanimage.jpg"/></swiper-item>
+</swiper>
+
+

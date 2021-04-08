@@ -1,1 +1,53 @@
-/* pages/page02/page02.wxss */
+
+.day_box{
+  display:flex;
+}
+
+.day{
+  flex:1;
+  text-align: center;
+  margin: 0 20rpx;
+  border-radius: 13%;
+  word-break:keep-all;
+  padding:20rpx 0;
+  font-size:30rpx;
+}
+
+view.clock{
+  margin-top:20rpx;
+  text-align: center;
+}
+
+button.clock{
+  color:rgb(255, 255, 255);
+  background-color: rgb(35, 192, 69);
+  border-radius: 10%;
+  float: right;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+button.unclock{
+  color:rgb(255, 255, 255);
+  background-color: rgb(128, 126, 126);
+  border-radius: 10%;
+  float: right;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+text.clock{
+  float: left;
+  margin-left: 10px;
+  margin-top: 5px;
+  text-align: center;
+}
+.has{
+  color:rgb(250, 206, 84);
+  background-color: rgb(255, 46, 46);
+}
+
+
+.nohas{
+color:rgb(255, 46, 46);
+background-color: rgb(250, 206, 84);
+}

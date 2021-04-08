@@ -6,6 +6,7 @@
     "pages/page02/page02",
     "pages/page03/page03",
     "pages/index/index",
+    "pages/score/score01",
     "pages/logs/logs"
   ],
   "tabBar": {
